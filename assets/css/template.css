@@ -218,3 +218,72 @@ footer {
   height: 20px;
   margin-top: -25px;
 }
+
+.maincontent article {
+  width: 50%;
+  float: left;
+}
+.maincontent article a {
+  text-decoration: none;
+}
+.post_item {
+  margin: 15px;
+  height: 450px;
+  border-bottom: 1px solid #eee;
+}
+.post_comment_area {
+  background: #82b965;
+  background-image: url("../images/home.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  color: #fff;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 30px;
+  padding-right: 10px;
+  float: right;
+  position: relative;
+  z-index: 99;
+}
+
+.post_info {
+  min-height: 200px;
+}
+
+.post_thumb {
+  width: 100%;
+  height: auto;
+  margin-top: -24px;
+}
+
+.post_date {
+  padding: 5px 0 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bbb;
+}
+.post_title {
+  color: #444;
+  font-weight: 600;
+  padding: 0px 0 14px;
+}
+.post_excerpt {
+  font-size: 16px;
+  line-height: 16px;
+  color: #aaa;
+  height: 100px;
+  overflow: hidden;
+}
+.pag {
+  margin: 20px;
+}
+.previous_pag {
+  float: left;
+  text-align: left;
+}
+.next_pag {
+  float: right;
+  text-align: right;
+}

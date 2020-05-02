@@ -10,7 +10,7 @@
     <header>
         <div class="top_header">
             <div class="navbar navbar-default">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="collapse navbar-collapse">
                         <?php 
                         if (has_nav_menu('top')) {
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="main_header">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="logo">
                     <?php 
                 if (has_custom_logo()) {

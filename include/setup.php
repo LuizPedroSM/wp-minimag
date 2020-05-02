@@ -2,9 +2,12 @@
 
 function bm_theme_styles()
 {
+
     wp_enqueue_style('bootstrap_css', get_template_directory_uri().'/assets/css/bootstrap.min.css');
     wp_enqueue_style('template_css', get_template_directory_uri().'/assets/css/template.css');
-
+    
+    
+    // wp_enqueue_script('jquery'); 
     wp_enqueue_script('bootstrap_js', get_template_directory_uri().'/assets/js/bootstrap.min.js');
     wp_enqueue_script('script_js', get_template_directory_uri().'/assets/js/script.js');
 }
@@ -25,6 +28,16 @@ function bm_widgets()
         'name' => 'Sidebar Lateral',
         'id' => 'bm_sidebar',
         'description' => 'Sidebar Lateral',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget_title">',
+        'after_title' => '</h2>'
+    ));
+
+    register_sidebar(array(
+        'name' => 'Sidebar Rodape',
+        'id' => 'bm_footersidebar',
+        'description' => 'Sidebar Rodape',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h2 class="widget_title">',

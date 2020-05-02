@@ -3,13 +3,11 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-8 maincontent">
                 main
             </div>
             <?php get_sidebar();?>
         </div>
     </div>
 </section>
-</body>
-
-</html>
+<?php get_footer();?>

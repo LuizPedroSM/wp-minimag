@@ -222,6 +222,8 @@ footer {
 .maincontent article {
   width: 50%;
   float: left;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
 }
 .maincontent article a {
   text-decoration: none;
@@ -229,7 +231,6 @@ footer {
 .post_item {
   margin: 15px;
   height: 450px;
-  border-bottom: 1px solid #eee;
 }
 .post_comment_area {
   background: #82b965;
@@ -273,8 +274,6 @@ footer {
   font-size: 16px;
   line-height: 16px;
   color: #aaa;
-  height: 100px;
-  overflow: hidden;
 }
 .pag {
   margin: 20px;

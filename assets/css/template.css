@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+/* top header */
 .top_header {
   background-color: #222326;
   height: 45px;
@@ -20,4 +21,113 @@ body {
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   color: #ccc;
+}
+/* main header */
+.main_header {
+  height: 235px;
+  background-color: #2d3034;
+}
+.logo {
+  height: 130px;
+}
+.logo img {
+  height: 100px;
+  width: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.main_nav_border {
+  border-top: 2px solid #27292d;
+  border-left: 2px solid #27292d;
+  border-right: 2px solid #27292d;
+}
+
+.main_nav {
+  height: 45px;
+  border-top: 1px solid #36393c;
+}
+
+.main_nav .nav > li > a:focus,
+.main_nav .nav > li > a:hover {
+  background: #393e45;
+}
+.main_nav .navbar-nav > li > a {
+  color: #bebfc1;
+}
+.search_area {
+  float: right;
+}
+.search_input {
+  border: none;
+  padding: 11px 10px;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  width: 130px;
+}
+.search_input:focus {
+  border: none;
+  outline: none;
+  background: #fafafa;
+  color: #666;
+}
+
+.search_submit {
+  background: rgba(222, 222, 222, 0.1);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: all 0.3s ease-in-out;
+}
+.search_submit:hover {
+  opacity: 0.9;
+}
+.main_info {
+  background: #fff;
+  height: 58px;
+  line-height: 58px;
+  border-bottom: 1px solid #eee;
+}
+.socialarea {
+  background: #3b8dbd;
+}
+
+.main_info .row {
+  margin: 0;
+}
+
+.randompost strong {
+  padding: 0 10px;
+  background: #fff;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  color: #aaa;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.randompost a {
+  margin-left: 30px;
+  color: #aaa;
+  line-height: 24px;
+  font-size: 16px;
+}
+.socialtxt {
+  float: left;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.socialicons {
+  float: right;
+  height: 20px;
+}
+.socialicons img {
+  height: 20px;
+}
+.socialicons a {
+  text-decoration: none;
 }

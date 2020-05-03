@@ -286,3 +286,23 @@ footer {
   float: right;
   text-align: right;
 }
+
+.post_content {
+  border-top: 1px solid #eee;
+  border-bottom: 3px solid #eee;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.post_content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post_title_single h1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.comments_area {
+  border-top: 3px solid #eee;
+}

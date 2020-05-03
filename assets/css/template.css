@@ -11,12 +11,13 @@ body {
 /* top header */
 .top_header {
   background-color: #222326;
-  height: 45px;
   border-bottom: 1px solid #414346;
 }
 .navbar-default {
   background: none;
   border: 0;
+  margin-bottom: 0;
+  min-height: 44px;
 }
 .navbar-nav > li > a {
   padding-top: 12px;
@@ -234,7 +235,7 @@ footer {
 }
 .post_comment_area {
   background: #82b965;
-  background-image: url("../images/home.png");
+  background-image: url("../images/comments.png");
   background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position: 5px center;
@@ -276,7 +277,7 @@ footer {
   color: #aaa;
 }
 .pag {
-  margin: 20px;
+  padding: 20px;
 }
 .previous_pag {
   float: left;
@@ -305,4 +306,64 @@ footer {
 
 .comments_area {
   border-top: 3px solid #eee;
+}
+
+/* Tablet Horizontal ou monitor menor */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Tablet vertical */
+@media (min-width: 481px) and (max-width: 768px) {
+  .maincontent article {
+    float: none;
+    width: auto;
+    height: auto;
+  }
+  .post_item {
+    height: auto;
+    margin: 0;
+    padding-top: 15px;
+  }
+}
+
+/* Celular Vertical */
+@media (max-width: 480px) {
+  .navbar-default .navbar-collapse {
+    border-color: transparent;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .main_info,
+  .search_area {
+    display: none;
+  }
+  .main_nav {
+    height: auto;
+  }
+  .main_nav .navbar-nav {
+    margin: auto;
+  }
+
+  .maincontent article {
+    float: none;
+    width: auto;
+    height: auto;
+  }
+  .post_item {
+    height: auto;
+    margin: 0;
+    padding-top: 15px;
+  }
+
+  .maincontent,
+  .sidebar {
+    margin-top: 10px;
+  }
+
+  .footer_widgets .row {
+    display: block;
+  }
 }

@@ -11,7 +11,14 @@
         <div class="top_header">
             <div class="navbar navbar-default">
                 <div class="container">
-                    <div class="collapse navbar-collapse">
+                    <div class="navbar-header">
+                        <div class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
                         <?php 
                         if (has_nav_menu('top')) {
                             wp_nav_menu(array(

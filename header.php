@@ -8,6 +8,7 @@
 
 <body <?php body_class();?>>
     <header>
+        <?php if(get_theme_mod('bm_topmenu_show') == 'yes'):?>
         <div class="top_header">
             <div class="navbar navbar-default">
                 <div class="container">
@@ -33,6 +34,7 @@
                 </div>
             </div>
         </div>
+        <?php endif;?>
         <div class="main_header">
             <div class="container">
                 <div class="logo">
@@ -55,7 +57,11 @@
                         }
                         ?>
                         <div class="search_area">
-                            <?php get_search_form();?>
+                            <?php 
+                            if (get_theme_mod('bm_search_show') == 'yes') {                                
+                                get_search_form();
+                            }
+                            ?>
                         </div>
                     </div>
                     <div class="main_info">

@@ -9,7 +9,8 @@ function bm_layout_customizer($wp_customizer){
     // Sections
     $wp_customizer->add_section('bm_layout_section', array(
         'title' => 'Opções de Layout',
-        'priority' => 2
+        'priority' => 2,
+        'panel' => 'opcoes'
     ));
 
     // Controllers

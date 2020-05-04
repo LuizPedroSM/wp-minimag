@@ -10,7 +10,8 @@ function bm_social_customizer($wp_customizer){
     // Sections
     $wp_customizer->add_section('bm_social_section', array(
         'title' => 'Redes Sociais',
-        'priority' => '1'
+        'priority' => '1',
+        'panel' => 'opcoes'
     ));
     // Controllers
     $wp_customizer->add_control(

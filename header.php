@@ -68,7 +68,7 @@
                     <div class="main_info">
                         <div class="row">
                             <div class="col-sm-8 randompost">
-                                <strong>Você já viu?</strong>
+                                <strong><?php echo __('Did you see?', 'minimag');?></strong>
                                 <?php 
                                 if (function_exists('wpp_get_mostpopular')) {
                                     wpp_get_mostpopular(array(
@@ -101,7 +101,7 @@
                             </div>
                             <div class="col-sm-4 socialarea">
                                 <div class="socialtxt">
-                                    Siga:
+                                    <?php echo __('FOLLOW:', 'minimag');?>
                                 </div>
                                 <div class="socialicons">
                                     <?php if(get_theme_mod('bm_facebook')):?>

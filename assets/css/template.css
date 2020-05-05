@@ -328,6 +328,12 @@ footer {
   padding-bottom: 10px;
 }
 
+.custom-header img {
+  width: 100%;
+  border: 1px double #ccc;
+  border-radius: 0px 0px 5px 5px;
+}
+
 /* Tablet Horizontal ou monitor menor */
 @media (min-width: 992px) and (max-width: 1199px) {
 }

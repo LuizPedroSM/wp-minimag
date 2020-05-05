@@ -141,4 +141,9 @@
                 </div>
             </div>
         </div>
+        <?php if(get_header_image()):?>
+        <div class=" container custom-header">
+            <img src="<?php header_image();?>" alt="header image">
+        </div>
+        <?php endif;?>
     </header>

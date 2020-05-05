@@ -297,6 +297,31 @@ footer {
 
 .pag {
   padding: 20px;
+  clear: both;
+}
+.pag .page-numbers {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #222326;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pag .page-numbers:hover {
+  background-color: #414346;
+  color: #fff;
+}
+.pag .page-numbers.current {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  font-size: larger;
+  line-height: 1.45;
+  background-color: #222326;
+  border-color: #414346;
 }
 .previous_pag {
   float: left;

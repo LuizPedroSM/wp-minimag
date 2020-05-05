@@ -334,6 +334,14 @@ footer {
   border-radius: 0px 0px 5px 5px;
 }
 
+article.sticky {
+  width: 100%;
+  height: auto;
+}
+article.sticky .post_item {
+  height: auto;
+}
+
 /* Tablet Horizontal ou monitor menor */
 @media (min-width: 992px) and (max-width: 1199px) {
 }

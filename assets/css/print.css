@@ -1,0 +1,10 @@
+@media print {
+  header,
+  .sidebar,
+  .custom-header,
+  .pag,
+  .comments_area,
+  footer {
+    display: none;
+  }
+}

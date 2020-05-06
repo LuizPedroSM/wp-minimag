@@ -359,6 +359,11 @@ footer {
   border-radius: 0px 0px 5px 5px;
 }
 
+.loadmoreButton {
+  display: block;
+  margin: auto;
+  width: 150px;
+}
 article.sticky {
   width: 100%;
   height: auto;
